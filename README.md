@@ -1,4 +1,4 @@
-# laraAngularTemplate
+# phpAngularTemplate
 ## Em desenvolvimento
 ## PREVIEW
 
