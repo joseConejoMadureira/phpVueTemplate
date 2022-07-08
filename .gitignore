@@ -46,4 +46,4 @@ Thumbs.db
 /#backend/npm-debug.log
 /#backend/yarn-error.log
 /backend/vendor
-
+/backend/config/database.php
