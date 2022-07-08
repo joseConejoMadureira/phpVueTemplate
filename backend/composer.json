@@ -3,8 +3,9 @@
     "description": "template php angular",
     "autoload": {
         "psr-4": {
-            "Dev\\Backend\\": " /"
-        }
+            "backend\\": "src/"            
+        },
+        "files": ["src/config/database.php"]
     },
     "authors": [
         {

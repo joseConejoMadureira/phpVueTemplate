@@ -2,8 +2,11 @@
 
 require_once "vendor/autoload.php";
 
-//request
 
+
+
+//request
+$uri = 'w';
 
 switch($uri)
 {
