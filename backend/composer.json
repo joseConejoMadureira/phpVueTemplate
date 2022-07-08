@@ -1,0 +1,18 @@
+{
+    "name": "dev/backend",
+    "description": "template php angular",
+    "autoload": {
+        "psr-4": {
+            "Dev\\Backend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "joseEstudos",
+            "email": "jose.games15@outlook.com"
+        }
+    ],
+    "require": {
+        "psr/log": "^3.0"
+    }
+}
