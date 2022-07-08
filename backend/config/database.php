@@ -1,4 +1,5 @@
 <?php
+namespace backend\config;
 
 define("DATABASE_HOST", "localhost");
 define("DATABASE_USER", "root");
