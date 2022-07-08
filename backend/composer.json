@@ -3,7 +3,7 @@
     "description": "template php angular",
     "autoload": {
         "psr-4": {
-            "Dev\\Backend\\": "src/"
+            "Dev\\Backend\\": " /"
         }
     },
     "authors": [
