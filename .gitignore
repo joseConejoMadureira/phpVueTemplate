@@ -47,5 +47,6 @@ Thumbs.db
 /#backend/yarn-error.log
 /backend/vendor
 /backend/config/database.php
-backend/logs/logs.log
-backend/logs/logs.log
+/backend/logs/logs.log
+/backend/logs/*
+backend/logs/*
