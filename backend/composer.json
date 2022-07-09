@@ -2,11 +2,11 @@
     "name": "dev/backend",
     "description": "template php angular",
     "autoload": {
-        "classmap": ["src/Model"],
+        "classmap": ["src/Model","src/Service"],
         "psr-4": {
             "backend\\": "src/"            
         },
-        "files": ["src/config/database.php"]
+        "files": ["src/config/config.php"]
         
     },
     "authors": [
@@ -17,7 +17,6 @@
     ],
     "require": {
         
-        "monolog/monolog": "^3.1",
         "phpunit/phpunit": "^9.5"
     }
 }
