@@ -2,10 +2,12 @@
     "name": "dev/backend",
     "description": "template php angular",
     "autoload": {
+        "classmap": ["src/Model"],
         "psr-4": {
             "backend\\": "src/"            
         },
         "files": ["src/config/database.php"]
+        
     },
     "authors": [
         {
