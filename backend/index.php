@@ -2,7 +2,6 @@
 require_once __DIR__. "/vendor/autoload.php";
 //request
 $uri = 'w';
-
 switch($uri)
 {
     case 'x' :
@@ -18,7 +17,5 @@ switch($uri)
     case 'z' :
         
 
-    break;
-
-   
+    break;   
 }
