@@ -1,9 +1,7 @@
 <?php
 require_once __DIR__ . "/vendor/autoload.php";
-
-
-
 LogsW::write(json_encode($_SERVER));
+LogsW::write(json_encode($_REQUEST));
 
 //request
 $uri = 'x';
