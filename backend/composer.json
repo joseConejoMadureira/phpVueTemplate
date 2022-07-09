@@ -2,7 +2,7 @@
     "name": "dev/backend",
     "description": "template php angular",
     "autoload": {
-        "classmap": ["src/Model","src/Service"],
+        "classmap": ["src/Model","src/Service","src/php-log"],
         "psr-4": {
             "backend\\": "src/"            
         },
