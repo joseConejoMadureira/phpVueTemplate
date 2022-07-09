@@ -1,21 +1,20 @@
 <?php
-require_once __DIR__. "/vendor/autoload.php";
+require_once __DIR__ . "/vendor/autoload.php";
 //request
 $uri = 'w';
-switch($uri)
-{
-    case 'x' :
-        
+switch ($uri) {
+    case 'x':
 
-    break;
 
-    case 'y' :
-        
+        break;
 
-    break;
+    case 'y':
 
-    case 'z' :
-        
 
-    break;   
+        break;
+
+    case 'z':
+
+
+        break;
 }
