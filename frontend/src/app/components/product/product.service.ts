@@ -11,7 +11,9 @@ import { map, catchError } from "rxjs/operators";
 export class ProductService {
   baseUrl = "http://localhost:3000/backend/index.php/product";
    options = {
-    headers: new HttpHeaders().set('Content-Type', 'application/x-www-form-urlencoded')
+    headers: new HttpHeaders()
+    .append('Content-Type', 'application/x-www-form-urlencoded')
+    .append('Content-Type', 'application/json; charset=UTF-8')
 };
   constructor(private snackBar: MatSnackBar, private http: HttpClient) {}
 
@@ -25,8 +27,8 @@ export class ProductService {
   }
 
   create(product: Product): Observable<Product> {
-    
-    return this.http.post<Product>(this.baseUrl, product,this.options).pipe(
+
+    return this.http.post<Product>(this.baseUrl, product, this.options).pipe(
       map((obj) => obj),
       catchError((e) => this.errorHandler(e))
     );
