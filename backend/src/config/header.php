@@ -14,6 +14,8 @@ LogsW::write(json_encode($_SERVER['REQUEST_METHOD']));
 LogsW::write($_SERVER['REQUEST_URI']);
 LogsW::write(($_POST));
 
-$data2 = file_get_contents("php://input");
-LogsW::write( "file_get_contents ". $data2  );
-LogsW::write( "price ". $data->price  );
+$data = json_decode(file_get_contents("php://input"));
+
+$price = $data->price;
+LogsW::write(json_encode($data)   );
+LogsW::write( $price  );
