@@ -18,8 +18,11 @@ class ProductService
     $this->uri = $uri;
     $this->method = $method;
     $this->data = $data;
-    $this->product->name = $this->data->name;
-    $this->product->price = $this->data->price;
+    if($this->data->name && $this->data->price ){
+      $this->product->name = $this->data->name;
+      $this->product->price = $this->data->price;
+    }
+   
   }
   function method()
   {
