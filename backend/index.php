@@ -1,6 +1,7 @@
 <?php
 require_once __DIR__ . "/vendor/autoload.php";
-//request
+use src\Service\ProductService;
+
 $uri = explode("/", $_SERVER['REQUEST_URI']);
 $method = $_SERVER['REQUEST_METHOD'];
 $service = $uri[3];
@@ -9,7 +10,8 @@ LogsW::write(json_encode($data));
 switch ($service) {
     case 'product':
         LogsW::write('CASE: product');
-        //$pro
+        $product  = new  ProductService($uri, $method, $data);
+        
         break;
     case 'y':
         break;
