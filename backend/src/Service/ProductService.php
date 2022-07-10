@@ -18,11 +18,7 @@ class ProductService
     $this->uri = $uri;
     $this->method = $method;
     $this->data = $data;
-    if($this->data->name && $this->data->price ){
-      $this->product->name = $this->data->name;
-      $this->product->price = $this->data->price;
-    }
-   
+    $this->data = json_decode($this->data);
   }
   function method()
   {
@@ -38,8 +34,12 @@ class ProductService
   }
   function create()
   {
-    LogsW::write('Product service create Product: ' . $this->product);
-    $this->product;
+    $product = new Product();
+    $product->name = $this->data->name;
+    $product->price = $this->data->price;
+
+    LogsW::write('productService create - Produto nome :'. $product->name);
+    LogsW::write('productService create - Produto preço :'. $product->price);
 
     return  "";
   }

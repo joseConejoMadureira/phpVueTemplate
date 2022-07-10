@@ -7,11 +7,7 @@ $uri = explode("/", $_SERVER['REQUEST_URI']);
 $method = $_SERVER['REQUEST_METHOD'];
 $service = $uri[3];
 $data = json_decode(file_get_contents("php://input"));
-
-//logs
-LogsW::write(json_encode($data));
-LogsW::write(json_encode($uri));
-LogsW::write(json_encode($data));
+$data = json_encode($data);
 
 switch ($service) {
     case 'product':
