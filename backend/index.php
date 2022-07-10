@@ -9,6 +9,7 @@ LogsW::write(json_encode($data));
 switch ($service) {
     case 'product':
         LogsW::write('CASE: product');
+        //$pro
         break;
     case 'y':
         break;
