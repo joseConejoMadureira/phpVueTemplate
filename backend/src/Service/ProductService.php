@@ -20,16 +20,20 @@ class ProductService
     $this->data = $data;
     $this->data = json_decode($this->data);
   }
-  function method()
+  function action()
   {
+    LogsW::write('productService action: '.$this->uri[4]);
     return  $this->uri[4];
   }
   function read()
   {
+    LogsW::write('productService read');
     return  "";
   }
   function readById()
   {
+    LogsW::write('productService readById');
+ 
     return  "";
   }
   function create()
@@ -45,10 +49,13 @@ class ProductService
   }
   function update()
   {
+    LogsW::write('productService update');
+
     return  "";
   }
   function delete()
   {
+    LogsW::write('productService delete');
     return  "";
   }
 }

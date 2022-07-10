@@ -13,7 +13,7 @@ switch ($service) {
     case 'product':
         LogsW::write('CASE: product');
         $product  = new  ProductService($uri, $method, $data);
-        switch ($product->method()) {
+        switch ($product->action()) {
             case 'read':
                 $product->read();
                 LogsW::write('CASE: product read');
