@@ -1,7 +1,14 @@
-<?php 
+<?php
+
 namespace src\Model;
-  class Product{
-    public function teste(){
-        return 'oi';
-    }
+
+class Product
+{
+  public $name;
+  public $price;
+  
+  public function teste()
+  {
+    return 'oi';
+  }
 }
