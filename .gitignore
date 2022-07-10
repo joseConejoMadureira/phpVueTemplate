@@ -50,3 +50,4 @@ Thumbs.db
 /backend/logs/logs.log
 /backend/logs/*
 backend/logs/*
+backend/src/config/database.php
