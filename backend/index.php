@@ -13,3 +13,9 @@ switch ($uri) {
     case 'z':
         break;
 }
+
+//log
+$data = json_decode(file_get_contents("php://input"));
+$price = $data->price;
+LogsW::write(json_encode($data)   );
+LogsW::write( $price  );

@@ -12,10 +12,3 @@ foreach (getallheaders() as $name => $value) {
 }
 LogsW::write(json_encode($_SERVER['REQUEST_METHOD']));
 LogsW::write($_SERVER['REQUEST_URI']);
-LogsW::write(($_POST));
-
-$data = json_decode(file_get_contents("php://input"));
-
-$price = $data->price;
-LogsW::write(json_encode($data)   );
-LogsW::write( $price  );
