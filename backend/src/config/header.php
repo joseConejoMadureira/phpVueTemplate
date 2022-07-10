@@ -14,6 +14,6 @@ LogsW::write(json_encode($_SERVER['REQUEST_METHOD']));
 LogsW::write($_SERVER['REQUEST_URI']);
 LogsW::write(($_POST));
 
-foreach ( $_POST as $key => $value ) {
-  LogsW::write( $key  );
-}
+$data2 = file_get_contents("php://input");
+LogsW::write( "file_get_contents ". $data2  );
+LogsW::write( "price ". $data->price  );
