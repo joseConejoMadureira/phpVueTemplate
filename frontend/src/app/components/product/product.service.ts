@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import { MatSnackBar } from "@angular/material/snack-bar";
-import { HttpClient } from "@angular/common/http";
+import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Product } from "./product.model";
 import { Observable, EMPTY } from "rxjs";
 import { map, catchError } from "rxjs/operators";
@@ -10,7 +10,9 @@ import { map, catchError } from "rxjs/operators";
 })
 export class ProductService {
   baseUrl = "http://localhost:3000/backend/index.php/product";
-
+   options = {
+    headers: new HttpHeaders().set('Content-Type', 'application/x-www-form-urlencoded')
+};
   constructor(private snackBar: MatSnackBar, private http: HttpClient) {}
 
   showMessage(msg: string, isError: boolean = false): void {
@@ -23,7 +25,8 @@ export class ProductService {
   }
 
   create(product: Product): Observable<Product> {
-    return this.http.post<Product>(this.baseUrl, product).pipe(
+    
+    return this.http.post<Product>(this.baseUrl, product,this.options).pipe(
       map((obj) => obj),
       catchError((e) => this.errorHandler(e))
     );
