@@ -48,6 +48,5 @@ Thumbs.db
 /backend/vendor
 /backend/config/database.php
 /backend/logs/logs.log
-/backend/logs/*
-backend/logs/*
+
 backend/src/config/database.php
