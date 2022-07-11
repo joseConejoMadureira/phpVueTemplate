@@ -2,6 +2,7 @@
 
 namespace src\Service;
 
+use Iservice;
 use LogsW;
 use src\Model\Product;
 
