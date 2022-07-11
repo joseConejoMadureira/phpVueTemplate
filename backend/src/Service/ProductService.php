@@ -12,7 +12,6 @@ class ProductService  implements Iservice
   public $uri;
   public $method;
   public $data;
-  public Product $product;
 
   function __construct($uri, $method, $data)
   {
