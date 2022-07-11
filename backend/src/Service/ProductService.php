@@ -3,14 +3,15 @@
 namespace src\Service;
 
 use LogsW;
+use Service\Iservice;
 use src\Model\Product;
 
-class ProductService  
+class ProductService  implements Iservice
 {
+ 
   public $uri;
   public $method;
   public $data;
-
   public Product $product;
 
   function __construct($uri, $method, $data)
