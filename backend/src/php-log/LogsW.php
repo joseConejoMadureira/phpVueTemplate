@@ -5,7 +5,7 @@ class LogsW
 
     public  static function write($message)
     {
-        $file = fopen('logs/logs.log', 'a+');
+        $file = fopen('logs.log', 'a+');
         $text = " ";
         $text .=  "### data log ---> " . date('d/m/y H:i:s');
         $text .= "  >>>>> : " . $message . "  >>>>> #";

@@ -56,3 +56,39 @@
  ### data log ---> 10/07/22 21:23:15  >>>>> : productService action: read  >>>>> #
  ### data log ---> 10/07/22 21:23:15  >>>>> : productService read  >>>>> #
  ### data log ---> 10/07/22 21:23:15  >>>>> : CASE: product read  >>>>> #
+ ### data log ---> 11/07/22 16:25:59  >>>>> : Host: localhost:3000  >>>>> #
+ ### data log ---> 11/07/22 16:25:59  >>>>> : Connection: keep-alive  >>>>> #
+ ### data log ---> 11/07/22 16:25:59  >>>>> : Cache-Control: max-age=0  >>>>> #
+ ### data log ---> 11/07/22 16:25:59  >>>>> : sec-ch-ua: " Not;A Brand";v="99", "Microsoft Edge";v="103", "Chromium";v="103"  >>>>> #
+ ### data log ---> 11/07/22 16:25:59  >>>>> : sec-ch-ua-mobile: ?0  >>>>> #
+ ### data log ---> 11/07/22 16:25:59  >>>>> : sec-ch-ua-platform: "Linux"  >>>>> #
+ ### data log ---> 11/07/22 16:25:59  >>>>> : Upgrade-Insecure-Requests: 1  >>>>> #
+ ### data log ---> 11/07/22 16:25:59  >>>>> : User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44  >>>>> #
+ ### data log ---> 11/07/22 16:25:59  >>>>> : Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9  >>>>> #
+ ### data log ---> 11/07/22 16:25:59  >>>>> : Sec-Fetch-Site: none  >>>>> #
+ ### data log ---> 11/07/22 16:25:59  >>>>> : Sec-Fetch-Mode: navigate  >>>>> #
+ ### data log ---> 11/07/22 16:25:59  >>>>> : Sec-Fetch-User: ?1  >>>>> #
+ ### data log ---> 11/07/22 16:25:59  >>>>> : Sec-Fetch-Dest: document  >>>>> #
+ ### data log ---> 11/07/22 16:25:59  >>>>> : Accept-Encoding: gzip, deflate, br  >>>>> #
+ ### data log ---> 11/07/22 16:25:59  >>>>> : Accept-Language: pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6  >>>>> #
+ ### data log ---> 11/07/22 16:25:59  >>>>> : "GET"  >>>>> #
+ ### data log ---> 11/07/22 16:25:59  >>>>> : /backend/index.php  >>>>> #
+ ### data log ---> 11/07/22 16:25:59  >>>>> : CASE: 404  >>>>> #
+ ### data log ---> 11/07/22 16:26:30  >>>>> : Host: localhost:3000  >>>>> #
+ ### data log ---> 11/07/22 16:26:30  >>>>> : Connection: keep-alive  >>>>> #
+ ### data log ---> 11/07/22 16:26:30  >>>>> : Cache-Control: max-age=0  >>>>> #
+ ### data log ---> 11/07/22 16:26:30  >>>>> : sec-ch-ua: " Not;A Brand";v="99", "Microsoft Edge";v="103", "Chromium";v="103"  >>>>> #
+ ### data log ---> 11/07/22 16:26:30  >>>>> : sec-ch-ua-mobile: ?0  >>>>> #
+ ### data log ---> 11/07/22 16:26:30  >>>>> : sec-ch-ua-platform: "Linux"  >>>>> #
+ ### data log ---> 11/07/22 16:26:30  >>>>> : Upgrade-Insecure-Requests: 1  >>>>> #
+ ### data log ---> 11/07/22 16:26:30  >>>>> : User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44  >>>>> #
+ ### data log ---> 11/07/22 16:26:30  >>>>> : Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9  >>>>> #
+ ### data log ---> 11/07/22 16:26:30  >>>>> : Sec-Fetch-Site: none  >>>>> #
+ ### data log ---> 11/07/22 16:26:30  >>>>> : Sec-Fetch-Mode: navigate  >>>>> #
+ ### data log ---> 11/07/22 16:26:30  >>>>> : Sec-Fetch-User: ?1  >>>>> #
+ ### data log ---> 11/07/22 16:26:30  >>>>> : Sec-Fetch-Dest: document  >>>>> #
+ ### data log ---> 11/07/22 16:26:30  >>>>> : Accept-Encoding: gzip, deflate, br  >>>>> #
+ ### data log ---> 11/07/22 16:26:30  >>>>> : Accept-Language: pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6  >>>>> #
+ ### data log ---> 11/07/22 16:26:30  >>>>> : "GET"  >>>>> #
+ ### data log ---> 11/07/22 16:26:30  >>>>> : /backend/index.php  >>>>> #
+ ### data log ---> 11/07/22 16:26:30  >>>>> : CASE: 404  >>>>> #
