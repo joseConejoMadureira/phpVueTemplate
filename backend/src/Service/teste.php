@@ -1,6 +1,6 @@
 <?php 
 use Iservice;
-class teste implements Iservice{
+class ProductService implements Iservice{
     
 	/**
 	 */
