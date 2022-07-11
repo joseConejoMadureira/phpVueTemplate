@@ -2,10 +2,10 @@
 
 namespace src\Service;
 
-use src\Model\Product;
 use LogsW;
+use src\Model\Product;
 
-class ProductService
+class ProductService  
 {
   public $uri;
   public $method;
@@ -58,10 +58,7 @@ class ProductService
     LogsW::write('productService delete');
     return  "";
   }
-  function teste()
-  {
-    $this->action();
-  }
+
   function  route()
   {
     switch ($this->action()) {
