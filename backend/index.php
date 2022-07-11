@@ -15,7 +15,6 @@ switch ($service) {
         LogsW::write('CASE: product');
         $product  = new  ProductService($uri, $method, $data);
         $product->route();
-
         break;
         // Y
     case 'y':
