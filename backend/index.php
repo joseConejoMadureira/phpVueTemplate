@@ -1,7 +1,9 @@
 <?php
 require_once __DIR__ . "/vendor/autoload.php";
+
 use src\Service\ProductService;
 use src\Dao\DaoProduct;
+
 $dotenv = Dotenv\Dotenv::createMutable(__DIR__);
 $dotenv->load();
 
@@ -15,8 +17,7 @@ switch ($service) {
     case 'product':
         LogsW::write('CASE: product');
         $product  = new  ProductService($uri, $method, $data);
-        $product->route();
-        break;
+        return  $product->route();
         // Y
     case 'y':
         break;

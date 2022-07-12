@@ -68,8 +68,9 @@ class ProductService  implements Iservice
   {
     switch ($this->action()) {
       case 'read':
-        $this->read();
         LogsW::write('CASE: product read');
+        return  $this->read();
+        
         break;
       case 'readById':
         $this->readById();
