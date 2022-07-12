@@ -25,7 +25,10 @@
         "vlucas/phpdotenv": "^5.4"
     },
     "scripts": {
-        "post-root-package-install": [
+        "post-install-cmd": [
+            "@env"
+        ],
+        "env": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ]
     }
