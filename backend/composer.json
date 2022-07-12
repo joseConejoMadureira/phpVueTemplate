@@ -11,7 +11,7 @@
             "backend\\": "src/"
         },
         "files": [
-            "src/config/header.php"
+            "src/header/header.php"
         ]
     },
     "authors": [
