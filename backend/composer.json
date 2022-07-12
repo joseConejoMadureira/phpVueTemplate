@@ -5,7 +5,8 @@
         "classmap": [
             "src/Model",
             "src/Service",
-            "src/php-log"
+            "src/php-log",
+            "src/DAO"
         ],
         "psr-4": {
             "backend\\": "src/"
