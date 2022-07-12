@@ -6,7 +6,7 @@
             "src/Model",
             "src/Service",
             "src/php-log",
-            "src/DAO"
+            "src/Dao"
         ],
         "psr-4": {
             "backend\\": "src/"
