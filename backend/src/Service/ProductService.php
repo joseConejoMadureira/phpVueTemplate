@@ -15,9 +15,7 @@ class ProductService  implements Iservice
   public $data;
 
   function __construct($uri, $method, $data)
-  {
-    LogsW::write(json_encode($_ENV));
-
+  {    
     $this->uri = $uri;
     $this->method = $method;
     $this->data = $data;
