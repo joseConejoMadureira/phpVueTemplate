@@ -1,5 +1,5 @@
 <?php
-namespace src\DAO;
+namespace src\Dao;
 use PDO;
 class ConnectionPDO
 {

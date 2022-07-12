@@ -1,6 +1,7 @@
 <?php
 require_once __DIR__ . "/vendor/autoload.php";
 use src\Service\ProductService;
+use src\Dao\DaoProduct;
 $dotenv = Dotenv\Dotenv::createMutable(__DIR__);
 $dotenv->load();
 
@@ -9,7 +10,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 $service = $uri[3];
 $data = json_decode(file_get_contents("php://input"));
 $data = json_encode($data);
-$daoProduct = new \src\DAO\DaoProduct();
+$daoProduct = new DaoProduct();
 $daoProduct->read();
 switch ($service) {
         //PRODUCT

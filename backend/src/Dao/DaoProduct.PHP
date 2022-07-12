@@ -1,5 +1,5 @@
 <?php
-namespace src\DAO;
+namespace src\Dao;
 class DaoProduct
 {
     public static $instance;
