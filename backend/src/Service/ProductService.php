@@ -31,8 +31,7 @@ class ProductService  implements Iservice
   function read()
   {
     $daoProduct = new DaoProduct();
-    $daoProduct->read();
-
+  
     return  $daoProduct->read();
   }
   function readById()
@@ -70,8 +69,6 @@ class ProductService  implements Iservice
       case 'read':
         LogsW::write('CASE: product read');
         return  $this->read();
-        
-        break;
       case 'readById':
         $this->readById();
         LogsW::write('CASE: product readById');
