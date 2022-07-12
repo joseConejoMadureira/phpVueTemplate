@@ -15,6 +15,8 @@ class ProductService  implements Iservice
 
   function __construct($uri, $method, $data)
   {
+    LogsW::write(json_encode($_ENV));
+
     $this->uri = $uri;
     $this->method = $method;
     $this->data = $data;
@@ -27,7 +29,6 @@ class ProductService  implements Iservice
   }
   function read()
   {
-    LogsW::write('productService read');
     return  "";
   }
   function readById()
