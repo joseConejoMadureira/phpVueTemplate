@@ -2,12 +2,17 @@
     "name": "dev/backend",
     "description": "template php angular",
     "autoload": {
-        "classmap": ["src/Model","src/Service","src/php-log"],
+        "classmap": [
+            "src/Model",
+            "src/Service",
+            "src/php-log"
+        ],
         "psr-4": {
-            "backend\\": "src/"            
+            "backend\\": "src/"
         },
-        "files": ["src/config/config.php"]
-        
+        "files": [
+            "src/config/config.php"
+        ]
     },
     "authors": [
         {
@@ -16,8 +21,12 @@
         }
     ],
     "require": {
-        
         "phpunit/phpunit": "^9.5",
         "vlucas/phpdotenv": "^5.4"
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ]
     }
 }
