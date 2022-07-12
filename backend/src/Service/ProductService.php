@@ -5,6 +5,7 @@ namespace src\Service;
 use LogsW;
 use Service\Iservice;
 use src\Model\Product;
+use src\Dao\DaoProduct;
 
 class ProductService  implements Iservice
 {
@@ -29,7 +30,10 @@ class ProductService  implements Iservice
   }
   function read()
   {
-    return  "";
+    $daoProduct = new DaoProduct();
+    $daoProduct->read();
+
+    return  $daoProduct->read();
   }
   function readById()
   {

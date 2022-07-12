@@ -10,8 +10,6 @@ $method = $_SERVER['REQUEST_METHOD'];
 $service = $uri[3];
 $data = json_decode(file_get_contents("php://input"));
 $data = json_encode($data);
-$daoProduct = new DaoProduct();
-$daoProduct->read();
 switch ($service) {
         //PRODUCT
     case 'product':
