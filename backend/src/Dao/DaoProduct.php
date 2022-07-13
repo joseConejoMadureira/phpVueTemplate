@@ -8,15 +8,17 @@ class DaoProduct
    
     public function read(){
         $sql = "select * from products";
+        $p_sql = ConnectionPDO::getInstance();
         try{
-            $p_sql = ConnectionPDO::getInstance()->query($sql);  
+            $p_sql = $p_sql->query($sql);
             $result = $p_sql->fetchAll(PDO::FETCH_ASSOC);
-          
+            return json_encode($result);
         }catch(PDOException $e){
+            
             LogsW::write($e);
             return json_encode('error');
         }
         
-        return json_encode($result);
+        
     }
 }
