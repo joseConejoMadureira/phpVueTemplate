@@ -3,6 +3,8 @@ namespace src\Dao;
 use LogsW;
 use PDO;
 use PDOException;
+use src\Model\Product;
+
 class DaoProduct
 {
     public $connection;
@@ -17,7 +19,7 @@ class DaoProduct
          
         try{
             $result = $this->connection->query($sql)
-                     ->fetchAll(PDO::FETCH_ASSOC);
+                     ->fetchAll(PDO::FETCH_CLASS,Product::class);
             return $result;
         }catch(PDOException $e){
             
