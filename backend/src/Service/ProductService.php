@@ -29,7 +29,6 @@ class ProductService  implements Iservice
   function read()
   {
     $daoProduct = new DaoProduct();
-  
     return  $daoProduct->read();
   }
   function readById()
