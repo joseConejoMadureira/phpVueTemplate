@@ -46,7 +46,7 @@ class ProductService  implements Iservice
     LogsW::write('productService create - Produto nome :' . $product->name);
     LogsW::write('productService create - Produto preço :' . $product->price);
 
-    return  "";
+    return  "ok";
   }
   function update()
   {
@@ -71,7 +71,7 @@ class ProductService  implements Iservice
         LogsW::write('CASE: product readById');
         break;
       case 'create':
-        $this->create();
+        return $this->create();
         LogsW::write('CASE: product create');
         break;
       case 'update':
