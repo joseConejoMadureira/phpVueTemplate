@@ -57,9 +57,7 @@ class ProductService  implements Iservice
   function delete()
   {
     LogsW::write('productService delete');
-    return  $this->daoProduct->delete($this->uri[5]);
-    
-    
+    return  $this->daoProduct->delete($this->uri[5]);    
   }
 
   function  route()
