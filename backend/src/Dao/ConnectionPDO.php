@@ -1,6 +1,8 @@
 <?php
 namespace src\Dao;
 use PDO;
+use PDOException;
+use LogsW;
 class ConnectionPDO
 {
 
@@ -11,10 +13,16 @@ class ConnectionPDO
     public static function getInstance()
     {
         if (!isset(self::$instance)) {
-            self::$instance = new  
-            PDO($_ENV['DSN'], $_ENV['DB_USERNAME'], 
-            $_ENV['DB_PASSWORD'], 
-            [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+            try{
+                self::$instance = new  
+                PDO($_ENV['DSN'], $_ENV['DB_USERNAME'], 
+                $_ENV['DB_PASSWORD'], 
+                [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+            }catch(PDOException $e){
+                LogsW::write($e);
+            }
+
+            
         }
         return self::$instance;
     }
