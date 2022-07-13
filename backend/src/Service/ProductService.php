@@ -79,9 +79,8 @@ class ProductService  implements Iservice
         LogsW::write('CASE: product update');
         break;
       case 'delete':
-        $this->delete();
         LogsW::write('CASE: product delete');
-        break;
+        return  $this->delete();
       default:
         header("HTTP/1.1 404 Not Found");
         return  "404 Not Found";
