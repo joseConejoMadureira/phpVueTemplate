@@ -5,12 +5,17 @@ use PDO;
 use PDOException;
 class DaoProduct
 {
+    public $connection;
+    function __construct()
+    {  
+        $this->connection = ConnectionPDO::getInstance();
+    }
    
     public function read(){
         $sql = "select * from products";
-        $p_sql = ConnectionPDO::getInstance();
+         
         try{
-            $p_sql = $p_sql->query($sql);
+            $p_sql = $this->connection->query($sql);
             $result = $p_sql->fetchAll(PDO::FETCH_ASSOC);
             return json_encode($result);
         }catch(PDOException $e){
