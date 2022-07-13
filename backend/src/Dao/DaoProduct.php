@@ -18,9 +18,9 @@ class DaoProduct
         $sql = "select * from products";
          
         try{
-            $result = $this->connection->query($sql)
+            return $this->connection->query($sql)
                      ->fetchAll(PDO::FETCH_CLASS,Product::class);
-            return $result;
+            
         }catch(PDOException $e){
             
             LogsW::write($e);
