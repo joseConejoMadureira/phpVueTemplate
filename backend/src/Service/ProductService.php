@@ -13,13 +13,14 @@ class ProductService  implements Iservice
   public $uri;
   public $method;
   public $data;
-
+  public $daoProduct;
   function __construct($uri, $method, $data)
   {    
     $this->uri = $uri;
     $this->method = $method;
     $this->data = $data;
     $this->data = json_decode($this->data);
+    $this->daoProduct = new DaoProduct();
   }
   function action()
   {
@@ -28,8 +29,7 @@ class ProductService  implements Iservice
   }
   function read()
   {
-    $daoProduct = new DaoProduct();
-    return  $daoProduct->read();
+    return  $this->daoProduct->read();
   }
   function readById()
   {
@@ -43,10 +43,8 @@ class ProductService  implements Iservice
     $product->name = $this->data->name;
     $product->price = $this->data->price;
 
-    LogsW::write('productService create - Produto nome :' . $product->name);
-    LogsW::write('productService create - Produto preço :' . $product->price);
-
-    return  "ok";
+    return $this->daoProduct->create($product);
+     
   }
   function update()
   {
@@ -71,9 +69,8 @@ class ProductService  implements Iservice
         LogsW::write('CASE: product readById');
         break;
       case 'create':
-        return $this->create();
         LogsW::write('CASE: product create');
-        break;
+        return $this->create();
       case 'update':
         $this->update();
         LogsW::write('CASE: product update');
