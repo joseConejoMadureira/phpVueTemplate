@@ -17,11 +17,11 @@ class DaoProduct
         try{
             $result = $this->connection->query($sql)
                      ->fetchAll(PDO::FETCH_ASSOC);
-            return json_encode($result);
+            return $result;
         }catch(PDOException $e){
             
             LogsW::write($e);
-            return json_encode('error read products');
+            return 'error read products';
         }
         
         

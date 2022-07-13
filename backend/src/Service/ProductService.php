@@ -85,7 +85,7 @@ class ProductService  implements Iservice
         break;
       default:
         header("HTTP/1.1 404 Not Found");
-        return  json_encode("404 Not Found");
+        return  "404 Not Found";
     }
   }
 }
