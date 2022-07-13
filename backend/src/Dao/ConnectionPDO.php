@@ -21,8 +21,6 @@ class ConnectionPDO
             }catch(PDOException $e){
                 LogsW::write($e);
             }
-
-            
         }
         return self::$instance;
     }
