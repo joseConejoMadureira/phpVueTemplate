@@ -10,8 +10,8 @@ class DaoProduct
     {  
         $this->connection = ConnectionPDO::getInstance();
     }
-    //todo
-    
+    //TODO
+
     public function read(){
         $sql = "select * from products";
          
