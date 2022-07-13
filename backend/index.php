@@ -29,5 +29,8 @@ switch ($service) {
     default:
         LogsW::write('CASE: 404');
         header("HTTP/1.1 404 Not Found");
+        echo json_encode("404 Not Found");
+        
+        
         die();
 }

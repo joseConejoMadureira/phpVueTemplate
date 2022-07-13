@@ -84,9 +84,8 @@ class ProductService  implements Iservice
         LogsW::write('CASE: product delete');
         break;
       default:
-        LogsW::write('CASE: product 404');
         header("HTTP/1.1 404 Not Found");
-        die();
+        return  json_encode("404 Not Found");
     }
   }
 }
