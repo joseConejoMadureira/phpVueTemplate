@@ -50,28 +50,51 @@ class DaoProduct
             return 'error read products';
         }
     }
-    public function readById($id){
-        $sql = "SELECT * FROM PRODUCTS WHERE ID=".$id;
-       
+    public function readById($id)
+    {
+        $sql = "SELECT * FROM PRODUCTS WHERE ID=" . $id;
+
 
         try {
-            
+
             return $result =  $this->connection->query($sql)
                 ->fetchObject();
-            
         } catch (PDOException $e) {
 
             LogsW::write($e);
             return 'error read products';
         }
     }
-    public function delete($id){
-        $sql = "DELETE FROM PRODUCTS WHERE id=".$id;
+    public function delete($id)
+    {
+        $sql = "DELETE FROM PRODUCTS WHERE id=" . $id;
         try {
-            
+
             return $result =  $this->connection->query($sql)
-            ->rowCount();
-            
+                ->rowCount();
+        } catch (PDOException $e) {
+
+            LogsW::write($e);
+            return 'error read products';
+        }
+    }
+    public function update($id, Product $product)
+    {
+
+        $statement = 'UPDATE PRODUCTS '
+            . 'SET name = :name, '
+            . 'price = :price '
+            . 'WHERE id = :id';
+
+        try {
+
+            $stmt = $this->connection->prepare($statement);
+            $stmt->bindValue('name', $product->name);
+            $stmt->bindValue('price', $product->price);
+            $stmt->bindValue('id', $product->id);
+   
+            $stmt->execute();
+
         } catch (PDOException $e) {
 
             LogsW::write($e);

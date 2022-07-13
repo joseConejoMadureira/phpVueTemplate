@@ -50,9 +50,14 @@ class ProductService  implements Iservice
   }
   function update()
   {
-    LogsW::write('productService update');
+    $product = new Product();
+    $product->name = $this->data->name;
+    $product->price = $this->data->price;
 
-    return  "";
+    LogsW::write('productService update');
+    LogsW::write(json_encode($this->data));
+    
+    return  $this->daoProduct->update($this->uri[5],$product); 
   }
   function delete()
   {
@@ -73,8 +78,9 @@ class ProductService  implements Iservice
         LogsW::write('CASE: product create');
         return $this->create();
       case 'update':
-        $this->update();
         LogsW::write('CASE: product update');
+        return  $this->update();
+        
         break;
       case 'delete':
         LogsW::write('CASE: product delete');
