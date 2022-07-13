@@ -34,8 +34,10 @@ class ProductService  implements Iservice
   function readById()
   {
     LogsW::write('productService readById');
+    LogsW::write("id ".$this->uri[5]);
+    LogsW::write(json_encode($this->daoProduct->readById($this->uri[5])));
+    return  $this->daoProduct->readById($this->uri[5]);
 
-    return  "";
   }
   function create()
   {
@@ -65,9 +67,8 @@ class ProductService  implements Iservice
         LogsW::write('CASE: product read');
         return  $this->read();
       case 'readById':
-        $this->readById();
         LogsW::write('CASE: product readById');
-        break;
+        return $this->readById();
       case 'create':
         LogsW::write('CASE: product create');
         return $this->create();

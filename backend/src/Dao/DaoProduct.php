@@ -29,7 +29,8 @@ class DaoProduct
             return 'error read products';
         }
     }
-    public function create(Product $product){
+    public function create(Product $product)
+    {
         $statement = "
         INSERT INTO products 
             ( name, price)
@@ -40,10 +41,24 @@ class DaoProduct
 
             return $this->connection->prepare($statement)
                 ->execute(array(
-                    'name'=> $product->name,
-                    'price'=> $product->price
+                    'name' => $product->name,
+                    'price' => $product->price
                 ));
-                
+        } catch (PDOException $e) {
+
+            LogsW::write($e);
+            return 'error read products';
+        }
+    }
+    public function readById($id){
+        $sql = "select * from products where id=".$id;
+       
+
+        try {
+            
+            return $result =  $this->connection->query($sql)
+                ->fetchObject();
+            
         } catch (PDOException $e) {
 
             LogsW::write($e);
