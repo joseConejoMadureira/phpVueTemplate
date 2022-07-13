@@ -18,7 +18,7 @@ class DaoProduct
 
     public function read()
     {
-        $sql = "select * from products";
+        $sql = "SELECT * FROM PRODUCTS";
 
         try {
             return $this->connection->query($sql)
@@ -51,13 +51,26 @@ class DaoProduct
         }
     }
     public function readById($id){
-        $sql = "select * from products where id=".$id;
+        $sql = "SELECT * FROM PRODUCTS WHERE ID=".$id;
        
 
         try {
             
             return $result =  $this->connection->query($sql)
                 ->fetchObject();
+            
+        } catch (PDOException $e) {
+
+            LogsW::write($e);
+            return 'error read products';
+        }
+    }
+    public function delete($id){
+        $sql = "DELETE FROM PRODUCTS WHERE id=".$id;
+        try {
+            
+            return $result =  $this->connection->query($sql)
+            ->rowCount();
             
         } catch (PDOException $e) {
 
