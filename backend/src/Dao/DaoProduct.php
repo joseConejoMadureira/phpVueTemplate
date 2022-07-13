@@ -15,13 +15,13 @@ class DaoProduct
         $sql = "select * from products";
          
         try{
-            $p_sql = $this->connection->query($sql);
-            $result = $p_sql->fetchAll(PDO::FETCH_ASSOC);
+            $result = $this->connection->query($sql)
+                     ->fetchAll(PDO::FETCH_ASSOC);
             return json_encode($result);
         }catch(PDOException $e){
             
             LogsW::write($e);
-            return json_encode('error');
+            return json_encode('error read products');
         }
         
         
