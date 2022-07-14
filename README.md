@@ -4,7 +4,7 @@
 ## ROUTES 
 
 ### Produtos
-| Método | Rota | Parâmetros | Descrição
+| Método | Rota | Parâmetros | Tipo  | Descrição
 | ------ | ------ | ------ | ------ |
 | GET | /backend/index.php/product/read |  | Retorna todos produtos criados.
 | POST | /backend/index.php/product/create |  **name:** String `*`| Cria um novo produto.
