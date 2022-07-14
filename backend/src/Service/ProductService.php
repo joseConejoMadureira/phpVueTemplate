@@ -28,17 +28,17 @@ class ProductService  implements Iservice
   }
   function read()
   {
+    
     return  $this->daoProduct->read();
   }
   function readById()
   {
-    LogsW::write('productService readById');
-    LogsW::write("id " . $this->uri[5]);
-    LogsW::write(json_encode($this->daoProduct->readById($this->uri[5])));
+    
     return  $this->daoProduct->readById($this->uri[5]);
   }
   function create()
   {
+    
     $product = new Product();
     $product->name = $this->data->name;
     $product->price = $this->data->price;
@@ -58,7 +58,7 @@ class ProductService  implements Iservice
   }
   function delete()
   {
-    LogsW::write('productService delete');
+    
     return  $this->daoProduct->delete($this->uri[5]);
   }
 
@@ -66,19 +66,19 @@ class ProductService  implements Iservice
   {
     switch ($this->action()) {
       case 'read':
-        LogsW::write('CASE: product read');
+        LogsW::write('CASE SERVICE: product read');
         return  $this->read();
       case 'readById':
-        LogsW::write('CASE: product readById');
+        LogsW::write('CASE SERVICE: product readById');
         return $this->readById();
       case 'create':
-        LogsW::write('CASE: product create');
+        LogsW::write('CASE SERVICE: product create');
         return $this->create();
       case 'update':
-        LogsW::write('CASE: product update');
+        LogsW::write('CASE SERVICE: product update');
         return  $this->update();
       case 'delete':
-        LogsW::write('CASE: product delete');
+        LogsW::write('CASE SERVICE: product delete');
         return  $this->delete();
       default:
         header("HTTP/1.1 404 Not Found");
