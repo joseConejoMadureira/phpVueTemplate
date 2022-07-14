@@ -2,12 +2,12 @@
 
 namespace src\Dao;
 
-use Idao;
-use LogsW;
 use PDO;
+use LogsW;
 use PDOException;
+use src\Dao\Idao;
 use src\Model\Product;
-//TODO format SQL pattern and implements idao
+
 class DaoProduct implements Idao
 {
     public $connection;

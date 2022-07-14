@@ -1,5 +1,5 @@
 <?php
-
+namespace src\Dao;
 use src\Model\Product;
 
 interface Idao 
