@@ -3,10 +3,10 @@
 
 <p>Este é um parágrafo. Este é outro parágrafo.</p>
 
-## tecnologias 
-PHP
-
-Angular
+| Tecnologia  | Versão |
+| ------ | ------ |
+| PHP | 8 |
+| angular | 9 |
 
 ## ROUTES 
 
