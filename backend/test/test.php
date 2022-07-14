@@ -1,7 +1,3 @@
 <?php
 //TODO TESTS
-namespace test
-
-}
-
-?>
+namespace test;
