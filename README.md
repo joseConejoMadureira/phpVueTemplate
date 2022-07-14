@@ -1,13 +1,13 @@
 # php Angular Template
 ### template de desenvolvimento. 
 
-<p>Este é um parágrafo. Este é outro parágrafo.</p>
+<p>template para reutilização projeto feito php restful api</p>
 
 | Tecnologia  | Versão |
 | ------ | ------ |
 | PHP | 8.1.8 |
 | ANGULAR | 9.1.0 |
-
+| PostgreSQL | 14.4  |
 ## ROUTES 
 
 ### Produtos
