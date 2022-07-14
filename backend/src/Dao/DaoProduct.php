@@ -18,7 +18,6 @@ class DaoProduct implements Idao
     public function read()
     {
         $sql = "SELECT * FROM products";
-
         try {
             return $this->connection->query($sql)
                 ->fetchAll(PDO::FETCH_CLASS, Product::class);
@@ -64,11 +63,9 @@ class DaoProduct implements Idao
     {
         $sql = "DELETE FROM products WHERE id=" . $id;
         try {
-
             return $result =  $this->connection->query($sql)
                 ->rowCount();
         } catch (PDOException $e) {
-
             LogsW::write($e);
             return 'error delete products';
         }
