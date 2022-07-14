@@ -1,1 +1,239 @@
-logs
+ ### data log ---> 14/07/22 18:06:00  >>>>> : Host: localhost:3000  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : Connection: keep-alive  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : Content-Length: 31  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : sec-ch-ua: " Not;A Brand";v="99", "Microsoft Edge";v="103", "Chromium";v="103"  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : Accept: application/json, text/plain, */*  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : Content-Type: application/x-www-form-urlencoded,application/json; charset=UTF-8  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : sec-ch-ua-mobile: ?0  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : sec-ch-ua-platform: "Linux"  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : Origin: http://localhost:4200  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : Sec-Fetch-Site: same-site  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : Sec-Fetch-Mode: cors  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : Sec-Fetch-Dest: empty  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : Referer: http://localhost:4200/  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : Accept-Encoding: gzip, deflate, br  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : Accept-Language: pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : "POST"  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : /backend/index.php/product/create  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : CASE: product  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : productService action: create  >>>>> #
+ ### data log ---> 14/07/22 18:06:00  >>>>> : CASE: product create  >>>>> #
+ ### data log ---> 14/07/22 18:06:01  >>>>> : Host: localhost:3000  >>>>> #
+ ### data log ---> 14/07/22 18:06:01  >>>>> : Connection: keep-alive  >>>>> #
+ ### data log ---> 14/07/22 18:06:01  >>>>> : sec-ch-ua: " Not;A Brand";v="99", "Microsoft Edge";v="103", "Chromium";v="103"  >>>>> #
+ ### data log ---> 14/07/22 18:06:01  >>>>> : Accept: application/json, text/plain, */*  >>>>> #
+ ### data log ---> 14/07/22 18:06:01  >>>>> : sec-ch-ua-mobile: ?0  >>>>> #
+ ### data log ---> 14/07/22 18:06:01  >>>>> : User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44  >>>>> #
+ ### data log ---> 14/07/22 18:06:01  >>>>> : sec-ch-ua-platform: "Linux"  >>>>> #
+ ### data log ---> 14/07/22 18:06:01  >>>>> : Origin: http://localhost:4200  >>>>> #
+ ### data log ---> 14/07/22 18:06:01  >>>>> : Sec-Fetch-Site: same-site  >>>>> #
+ ### data log ---> 14/07/22 18:06:01  >>>>> : Sec-Fetch-Mode: cors  >>>>> #
+ ### data log ---> 14/07/22 18:06:01  >>>>> : Sec-Fetch-Dest: empty  >>>>> #
+ ### data log ---> 14/07/22 18:06:01  >>>>> : Referer: http://localhost:4200/  >>>>> #
+ ### data log ---> 14/07/22 18:06:01  >>>>> : Accept-Encoding: gzip, deflate, br  >>>>> #
+ ### data log ---> 14/07/22 18:06:01  >>>>> : Accept-Language: pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6  >>>>> #
+ ### data log ---> 14/07/22 18:06:01  >>>>> : "GET"  >>>>> #
+ ### data log ---> 14/07/22 18:06:01  >>>>> : /backend/index.php/product/read  >>>>> #
+ ### data log ---> 14/07/22 18:06:01  >>>>> : CASE: product  >>>>> #
+ ### data log ---> 14/07/22 18:06:01  >>>>> : productService action: read  >>>>> #
+ ### data log ---> 14/07/22 18:06:01  >>>>> : CASE: product read  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Host: localhost:3000  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Connection: keep-alive  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Content-Length: 33  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : sec-ch-ua: " Not;A Brand";v="99", "Microsoft Edge";v="103", "Chromium";v="103"  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Accept: application/json, text/plain, */*  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Content-Type: application/x-www-form-urlencoded,application/json; charset=UTF-8  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : sec-ch-ua-mobile: ?0  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : sec-ch-ua-platform: "Linux"  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Origin: http://localhost:4200  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Sec-Fetch-Site: same-site  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Sec-Fetch-Mode: cors  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Sec-Fetch-Dest: empty  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Referer: http://localhost:4200/  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Accept-Encoding: gzip, deflate, br  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Accept-Language: pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : "POST"  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : /backend/index.php/product/create  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : CASE: product  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : productService action: create  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : CASE: product create  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Host: localhost:3000  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Connection: keep-alive  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : sec-ch-ua: " Not;A Brand";v="99", "Microsoft Edge";v="103", "Chromium";v="103"  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Accept: application/json, text/plain, */*  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : sec-ch-ua-mobile: ?0  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : sec-ch-ua-platform: "Linux"  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Origin: http://localhost:4200  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Sec-Fetch-Site: same-site  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Sec-Fetch-Mode: cors  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Sec-Fetch-Dest: empty  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Referer: http://localhost:4200/  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Accept-Encoding: gzip, deflate, br  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : Accept-Language: pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : "GET"  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : /backend/index.php/product/read  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : CASE: product  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : productService action: read  >>>>> #
+ ### data log ---> 14/07/22 18:06:10  >>>>> : CASE: product read  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : Host: localhost:3000  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : Connection: keep-alive  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : sec-ch-ua: " Not;A Brand";v="99", "Microsoft Edge";v="103", "Chromium";v="103"  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : Accept: application/json, text/plain, */*  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : sec-ch-ua-mobile: ?0  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : sec-ch-ua-platform: "Linux"  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : Origin: http://localhost:4200  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : Sec-Fetch-Site: same-site  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : Sec-Fetch-Mode: cors  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : Sec-Fetch-Dest: empty  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : Referer: http://localhost:4200/  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : Accept-Encoding: gzip, deflate, br  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : Accept-Language: pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : "GET"  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : /backend/index.php/product/readById/95  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : CASE: product  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : productService action: readById  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : CASE: product readById  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : productService readById  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : id 95  >>>>> #
+ ### data log ---> 14/07/22 18:06:13  >>>>> : {"id":95,"name":"tv 4k","price":"4000"}  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Host: localhost:3000  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Connection: keep-alive  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Accept: */*  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Access-Control-Request-Method: PUT  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Access-Control-Request-Headers: content-type  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Origin: http://localhost:4200  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Sec-Fetch-Mode: cors  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Sec-Fetch-Site: same-site  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Sec-Fetch-Dest: empty  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Referer: http://localhost:4200/  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Accept-Encoding: gzip, deflate, br  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Accept-Language: pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : "OPTIONS"  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : /backend/index.php/product/update/95  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : CASE: product  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : productService action: update  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : CASE: product update  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Host: localhost:3000  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Connection: keep-alive  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Content-Length: 39  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : sec-ch-ua: " Not;A Brand";v="99", "Microsoft Edge";v="103", "Chromium";v="103"  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Accept: application/json, text/plain, */*  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Content-Type: application/json  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : sec-ch-ua-mobile: ?0  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : sec-ch-ua-platform: "Linux"  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Origin: http://localhost:4200  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Sec-Fetch-Site: same-site  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Sec-Fetch-Mode: cors  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Sec-Fetch-Dest: empty  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Referer: http://localhost:4200/  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Accept-Encoding: gzip, deflate, br  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Accept-Language: pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : "PUT"  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : /backend/index.php/product/update/95  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : CASE: product  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : productService action: update  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : CASE: product update  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Host: localhost:3000  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Connection: keep-alive  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : sec-ch-ua: " Not;A Brand";v="99", "Microsoft Edge";v="103", "Chromium";v="103"  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Accept: application/json, text/plain, */*  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : sec-ch-ua-mobile: ?0  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : sec-ch-ua-platform: "Linux"  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Origin: http://localhost:4200  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Sec-Fetch-Site: same-site  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Sec-Fetch-Mode: cors  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Sec-Fetch-Dest: empty  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Referer: http://localhost:4200/  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Accept-Encoding: gzip, deflate, br  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : Accept-Language: pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : "GET"  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : /backend/index.php/product/read  >>>>> #
+ ### data log ---> 14/07/22 18:06:19  >>>>> : CASE: product  >>>>> #
+ ### data log ---> 14/07/22 18:06:20  >>>>> : productService action: read  >>>>> #
+ ### data log ---> 14/07/22 18:06:20  >>>>> : CASE: product read  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : Host: localhost:3000  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : Connection: keep-alive  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : sec-ch-ua: " Not;A Brand";v="99", "Microsoft Edge";v="103", "Chromium";v="103"  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : Accept: application/json, text/plain, */*  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : sec-ch-ua-mobile: ?0  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : sec-ch-ua-platform: "Linux"  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : Origin: http://localhost:4200  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : Sec-Fetch-Site: same-site  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : Sec-Fetch-Mode: cors  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : Sec-Fetch-Dest: empty  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : Referer: http://localhost:4200/  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : Accept-Encoding: gzip, deflate, br  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : Accept-Language: pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : "GET"  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : /backend/index.php/product/readById/96  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : CASE: product  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : productService action: readById  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : CASE: product readById  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : productService readById  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : id 96  >>>>> #
+ ### data log ---> 14/07/22 18:06:25  >>>>> : {"id":96,"name":"celular","price":"3000"}  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Host: localhost:3000  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Connection: keep-alive  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Accept: */*  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Access-Control-Request-Method: DELETE  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Origin: http://localhost:4200  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Sec-Fetch-Mode: cors  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Sec-Fetch-Site: same-site  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Sec-Fetch-Dest: empty  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Referer: http://localhost:4200/  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Accept-Encoding: gzip, deflate, br  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Accept-Language: pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : "OPTIONS"  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : /backend/index.php/product/delete/96  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : CASE: product  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : productService action: delete  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : CASE: product delete  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : productService delete  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Host: localhost:3000  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Connection: keep-alive  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : sec-ch-ua: " Not;A Brand";v="99", "Microsoft Edge";v="103", "Chromium";v="103"  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Accept: application/json, text/plain, */*  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : sec-ch-ua-mobile: ?0  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : sec-ch-ua-platform: "Linux"  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Origin: http://localhost:4200  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Sec-Fetch-Site: same-site  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Sec-Fetch-Mode: cors  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Sec-Fetch-Dest: empty  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Referer: http://localhost:4200/  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Accept-Encoding: gzip, deflate, br  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Accept-Language: pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : "DELETE"  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : /backend/index.php/product/delete/96  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : CASE: product  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : productService action: delete  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : CASE: product delete  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : productService delete  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Host: localhost:3000  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Connection: keep-alive  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : sec-ch-ua: " Not;A Brand";v="99", "Microsoft Edge";v="103", "Chromium";v="103"  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Accept: application/json, text/plain, */*  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : sec-ch-ua-mobile: ?0  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : sec-ch-ua-platform: "Linux"  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Origin: http://localhost:4200  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Sec-Fetch-Site: same-site  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Sec-Fetch-Mode: cors  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Sec-Fetch-Dest: empty  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Referer: http://localhost:4200/  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Accept-Encoding: gzip, deflate, br  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : Accept-Language: pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : "GET"  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : /backend/index.php/product/read  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : CASE: product  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : productService action: read  >>>>> #
+ ### data log ---> 14/07/22 18:06:27  >>>>> : CASE: product read  >>>>> #
