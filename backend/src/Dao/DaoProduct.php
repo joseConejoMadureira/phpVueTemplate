@@ -17,7 +17,7 @@ class DaoProduct implements Idao
     }
     public function read()
     {
-        $sql = "SELECT * FROM PRODUCTS";
+        $sql = "SELECT * FROM products";
 
         try {
             return $this->connection->query($sql)
