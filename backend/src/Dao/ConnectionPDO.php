@@ -15,7 +15,7 @@ class ConnectionPDO
             try {
                 self::$instance = new
                     PDO(
-                        $_ENV['DSN'],
+                        $_ENV['DSN_pgsql'],
                         $_ENV['DB_USERNAME'],
                         $_ENV['DB_PASSWORD'],
                         [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
