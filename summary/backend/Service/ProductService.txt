@@ -53,7 +53,6 @@ class ProductService  implements Iservice
     $product->price = $this->data->price;
     return  $this->daoProduct
       ->update(
-        $this->uri[5],
         $product
       );
   }
