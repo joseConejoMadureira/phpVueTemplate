@@ -6,7 +6,7 @@
 ### Produtos
 | Método | Rota | Parâmetros | Tipo  | Descrição
 | ------ | ------ | ------ | ------ |------ |
-| GET | /backend/index.php/product/read |  | Retorna todos produtos criados.        | 
+| GET | /backend/index.php/product/read |Retorna todos produtos criados.   |        | 
 | POST | /backend/index.php/product/create |**name:** String `*`| Cria um novo produto.         |
 | |  | **stateId:** String `*`             |         |
 | PUT | /backend/index.php/product/update  |**id:** String `*` | Altera informações de um produto.         |  
