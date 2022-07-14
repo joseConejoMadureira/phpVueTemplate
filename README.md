@@ -2,4 +2,10 @@
 ## Em desenvolvimento
 ## PREVIEW
 
-![preview](https://github.com/joseEstudos/laraAngularTemplate/blob/bf96e84aa3feeaf42e701490173b027a52670529/preview/preview.png)
+![preview](https://github.com/joseEstudos/phpAngularTemplate/blob/f5d6d158823b8c5c1969b0231444ff3e091ca4b5/summary/prints/produtos.png)
+
+![preview](https://github.com/joseEstudos/phpAngularTemplate/blob/f5d6d158823b8c5c1969b0231444ff3e091ca4b5/summary/prints/novoProduto.png)
+
+![preview](https://github.com/joseEstudos/phpAngularTemplate/blob/f5d6d158823b8c5c1969b0231444ff3e091ca4b5/summary/prints/excluirProduto.png)
+
+![preview](https://github.com/joseEstudos/phpAngularTemplate/blob/f5d6d158823b8c5c1969b0231444ff3e091ca4b5/summary/prints/editarProduto.png)
