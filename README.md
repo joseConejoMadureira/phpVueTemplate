@@ -1,7 +1,7 @@
 # php Angular Template
 ### template de desenvolvimento. 
 
-<p>template para reutilização  php restful api</p>
+<p>Template para reutilização:  php restful api</p>
 
 ## Tecnologias 
 
