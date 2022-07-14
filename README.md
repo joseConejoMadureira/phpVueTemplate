@@ -6,7 +6,7 @@
 ### Produtos
 | Método | Rota | Parâmetros | Descrição
 | ------ | ------ | ------ | ------ |
-| GET | cities/ |  | Retorna todas as cidades criadas.
+| GET | /backend/index.php/product/read |  | Retorna todos produtos criados.
 | POST | cities/create |  **name:** String `*`| Cria uma nova cidade.
 | |  | **stateId:** String `*`  |
 | PUT | cities/update |  **id:** String `*` | Altera informações de uma cidade.
