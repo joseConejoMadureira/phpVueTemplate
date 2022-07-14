@@ -8,10 +8,10 @@
 | ------ | ------ | ------ | ------ |------ |
 | GET | /backend/index.php/product/read |  |   JSON     | Retorna todos produtos criados. 
 | POST | /backend/index.php/product/create |**name:**  `*` | |   JSON      | Cria um novo produto. 
-| |  | **stateId:** String `*`             |         |
+| |  | **stateId:**  `*`             |         |
 | PUT | /backend/index.php/product/update  |**id:**  `*` | JSON |Altera informações de um produto.         |  
-|  | | **name:** String |
-|  |  | **stateId:** String |
+|  | | **name:**  |
+|  |  | **stateId:**  |
 | `DELETE` |  /backend/index.php/product/delete  | **id:**  `*` | JSON |Deleta um produto.
 
 ## PREVIEW
