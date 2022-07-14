@@ -1,5 +1,8 @@
-# phpAngularTemplate
-
+# php Angular Template
+### template desenvolvido com proposito de ser reutilizado. 
+## tecnologias 
+PHP 
+Angular
 
 ## ROUTES 
 
