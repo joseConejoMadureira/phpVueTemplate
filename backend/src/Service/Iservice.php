@@ -10,5 +10,6 @@ interface Iservice
     public function readById();
     public function update();
     public function delete();
+    public function create();
     public function route();
 }

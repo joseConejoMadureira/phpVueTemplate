@@ -6,7 +6,7 @@ use LogsW;
 use PDO;
 use PDOException;
 use src\Model\Product;
-//TODO format SQL pattern
+//TODO format SQL pattern and implements idao
 class DaoProduct
 {
     public $connection;
