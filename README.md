@@ -7,12 +7,12 @@
 | Método | Rota | Parâmetros | Tipo  | Descrição
 | ------ | ------ | ------ | ------ |------ |
 | GET | /backend/index.php/product/read |  |   JSON     | Retorna todos produtos criados. 
-| POST | /backend/index.php/product/create |**name:** String `*` | |   JSON      | Cria um novo produto. 
+| POST | /backend/index.php/product/create |**name:**  `*` | |   JSON      | Cria um novo produto. 
 | |  | **stateId:** String `*`             |         |
-| PUT | /backend/index.php/product/update  |**id:** String `*` | JSON |Altera informações de um produto.         |  
+| PUT | /backend/index.php/product/update  |**id:**  `*` | JSON |Altera informações de um produto.         |  
 |  | | **name:** String |
 |  |  | **stateId:** String |
-| `DELETE` |  /backend/index.php/product/delete  | **id:** String `*` | JSON |Deleta um produto.
+| `DELETE` |  /backend/index.php/product/delete  | **id:**  `*` | JSON |Deleta um produto.
 
 ## PREVIEW
 
