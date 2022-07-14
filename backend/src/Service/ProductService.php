@@ -51,6 +51,7 @@ class ProductService  implements Iservice
   function update()
   {
     $product = new Product();
+    $product->id = $this->data->id;
     $product->name = $this->data->name;
     $product->price = $this->data->price;
 

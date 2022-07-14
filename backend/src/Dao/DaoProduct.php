@@ -38,7 +38,6 @@ class DaoProduct
             (:name, :price);";
 
         try {
-
             return $this->connection->prepare($statement)
                 ->execute(array(
                     'name' => $product->name,
@@ -47,22 +46,19 @@ class DaoProduct
         } catch (PDOException $e) {
 
             LogsW::write($e);
-            return 'error read products';
+            return 'error create products';
         }
     }
     public function readById($id)
     {
         $sql = "SELECT * FROM PRODUCTS WHERE ID=" . $id;
-
-
         try {
-
             return $result =  $this->connection->query($sql)
                 ->fetchObject();
         } catch (PDOException $e) {
 
             LogsW::write($e);
-            return 'error read products';
+            return 'error readById products';
         }
     }
     public function delete($id)
@@ -75,30 +71,27 @@ class DaoProduct
         } catch (PDOException $e) {
 
             LogsW::write($e);
-            return 'error read products';
+            return 'error delete products';
         }
     }
     public function update($id, Product $product)
     {
-
-        $statement = 'UPDATE PRODUCTS '
-            . 'SET name = :name, '
-            . 'price = :price '
-            . 'WHERE id = :id';
-
+        
+        
+        $data = [
+            'name' => $product->name,
+            'price' => $product->price,            
+            'id' => $product->id,
+        ];
+        $sql = "UPDATE PRODUCTS SET name=:name, price=:price WHERE id=:id";
+        LogsW::write(json_encode($data));
         try {
-
-            $stmt = $this->connection->prepare($statement);
-            $stmt->bindValue('name', $product->name);
-            $stmt->bindValue('price', $product->price);
-            $stmt->bindValue('id', $product->id);
-   
-            $stmt->execute();
-
+            $stmt= $this->connection->prepare($sql);
+            $stmt->execute($data);
+            return "update";
         } catch (PDOException $e) {
-
             LogsW::write($e);
-            return 'error read products';
+            return 'error update products';
         }
     }
 }
