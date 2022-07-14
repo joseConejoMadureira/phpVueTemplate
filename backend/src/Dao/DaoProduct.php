@@ -6,7 +6,7 @@ use LogsW;
 use PDO;
 use PDOException;
 use src\Model\Product;
-
+//TODO
 class DaoProduct
 {
     public $connection;
@@ -76,19 +76,15 @@ class DaoProduct
     }
     public function update($id, Product $product)
     {
-        
-        
         $data = [
             'name' => $product->name,
             'price' => $product->price,            
             'id' => $product->id,
         ];
         $sql = "UPDATE PRODUCTS SET name=:name, price=:price WHERE id=:id";
-        LogsW::write(json_encode($data));
         try {
             $stmt= $this->connection->prepare($sql);
-            $stmt->execute($data);
-            return "update";
+          return   $stmt->execute($data);
         } catch (PDOException $e) {
             LogsW::write($e);
             return 'error update products';
