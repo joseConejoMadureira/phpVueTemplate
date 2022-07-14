@@ -6,8 +6,8 @@
 ### Produtos
 | Método | Rota | Parâmetros | Tipo  | Descrição
 | ------ | ------ | ------ | ------ |------ |
-| GET | /backend/index.php/product/read |**id**  `*` |   JSON     | Retorna todos produtos criados.
-| GET | /backend/index.php/product/readById/|  |   JSON     | Retorna todos produtos criados. 
+| GET | /backend/index.php/product/read | |   JSON     | Retorna todos produtos criados.
+| GET | /backend/index.php/product/readById/| **id**  `*` |   JSON     | Retorna  produto selecionado. 
 | POST | /backend/index.php/product/create |**name**  `*` |JSON | Cria um novo produto. 
 | |  | **price**  `*`             |         |
 | PUT | /backend/index.php/product/update  |**id**  `*` | JSON |Altera informações de um produto.         |  
