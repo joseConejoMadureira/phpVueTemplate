@@ -1,7 +1,11 @@
 # php Angular Template
-### template desenvolvido com proposito de ser reutilizado. 
+### template de desenvolvimento. 
+
+<p>Este é um parágrafo. Este é outro parágrafo.</p>
+
 ## tecnologias 
-PHP 
+PHP
+
 Angular
 
 ## ROUTES 
