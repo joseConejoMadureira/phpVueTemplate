@@ -13,8 +13,8 @@
 |  | | **name**  |
 |  |  | **price**  |
 | `DELETE` |  /backend/index.php/product/delete  | **id**  `*` | JSON |Deleta um produto.
-|  | | **name**  |
-|  |  | **price**  |
+|  | |   |
+|  |  |   |
 ## PREVIEW
 
 ![preview](https://github.com/joseEstudos/phpAngularTemplate/blob/f5d6d158823b8c5c1969b0231444ff3e091ca4b5/summary/prints/produtos.png)
