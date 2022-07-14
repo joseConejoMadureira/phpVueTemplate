@@ -1,5 +1,5 @@
 # phpAngularTemplate
-## Em desenvolvimento
+
 
 ## ROUTES 
 
