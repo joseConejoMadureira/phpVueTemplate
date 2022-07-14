@@ -9,13 +9,12 @@ use src\Dao\DaoProduct;
 
 class ProductService  implements Iservice
 {
- 
   public $uri;
   public $method;
   public $data;
   public $daoProduct;
   function __construct($uri, $method, $data)
-  {    
+  {
     $this->uri = $uri;
     $this->method = $method;
     $this->data = $data;
@@ -34,10 +33,9 @@ class ProductService  implements Iservice
   function readById()
   {
     LogsW::write('productService readById');
-    LogsW::write("id ".$this->uri[5]);
+    LogsW::write("id " . $this->uri[5]);
     LogsW::write(json_encode($this->daoProduct->readById($this->uri[5])));
     return  $this->daoProduct->readById($this->uri[5]);
-
   }
   function create()
   {
@@ -46,22 +44,23 @@ class ProductService  implements Iservice
     $product->price = $this->data->price;
 
     return $this->daoProduct->create($product);
-     
   }
   function update()
   {
     $product = new Product();
     $product->id = $this->data->id;
     $product->name = $this->data->name;
-    $product->price = $this->data->price;    
+    $product->price = $this->data->price;
     return  $this->daoProduct
-            ->update($this->uri[5]
-                    ,$product); 
+      ->update(
+        $this->uri[5],
+        $product
+      );
   }
   function delete()
   {
     LogsW::write('productService delete');
-    return  $this->daoProduct->delete($this->uri[5]);    
+    return  $this->daoProduct->delete($this->uri[5]);
   }
 
   function  route()

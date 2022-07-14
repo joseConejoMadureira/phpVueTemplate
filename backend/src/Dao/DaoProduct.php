@@ -15,8 +15,6 @@ class DaoProduct implements Idao
     {
         $this->connection = ConnectionPDO::getInstance();
     }
-
-
     public function read()
     {
         $sql = "SELECT * FROM PRODUCTS";
@@ -79,13 +77,13 @@ class DaoProduct implements Idao
     {
         $data = [
             'name' => $product->name,
-            'price' => $product->price,            
+            'price' => $product->price,
             'id' => $product->id,
         ];
         $sql = "UPDATE products SET name=:name, price=:price WHERE id=:id";
         try {
-            $stmt= $this->connection->prepare($sql);
-          return   $stmt->execute($data);
+            $stmt = $this->connection->prepare($sql);
+            return   $stmt->execute($data);
         } catch (PDOException $e) {
             LogsW::write($e);
             return 'error update products';

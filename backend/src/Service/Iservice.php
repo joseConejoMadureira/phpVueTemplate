@@ -1,10 +1,10 @@
 <?php
+
 namespace Service;
-interface Iservice 
+
+interface Iservice
 {
-    
     public function __construct($uri, $method, $data);
-    
     public function action();
     public function read();
     public function readById();
