@@ -5,8 +5,8 @@
 
 | Tecnologia  | Versão |
 | ------ | ------ |
-| PHP | 8 |
-| angular | 9 |
+| PHP | 8.1.8 |
+| ANGULAR | 9.1.0 |
 
 ## ROUTES 
 
