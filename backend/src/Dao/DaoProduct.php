@@ -2,12 +2,13 @@
 
 namespace src\Dao;
 
+use Idao;
 use LogsW;
 use PDO;
 use PDOException;
 use src\Model\Product;
 //TODO format SQL pattern and implements idao
-class DaoProduct
+class DaoProduct implements Idao
 {
     public $connection;
     function __construct()
@@ -51,7 +52,7 @@ class DaoProduct
     }
     public function readById($id)
     {
-        $sql = "SELECT * FROM PRODUCTS WHERE ID=" . $id;
+        $sql = "SELECT * FROM products WHERE id=" . $id;
         try {
             return $result =  $this->connection->query($sql)
                 ->fetchObject();
@@ -63,7 +64,7 @@ class DaoProduct
     }
     public function delete($id)
     {
-        $sql = "DELETE FROM PRODUCTS WHERE id=" . $id;
+        $sql = "DELETE FROM products WHERE id=" . $id;
         try {
 
             return $result =  $this->connection->query($sql)
@@ -74,14 +75,14 @@ class DaoProduct
             return 'error delete products';
         }
     }
-    public function update($id, Product $product)
+    public function update(Product $product)
     {
         $data = [
             'name' => $product->name,
             'price' => $product->price,            
             'id' => $product->id,
         ];
-        $sql = "UPDATE PRODUCTS SET name=:name, price=:price WHERE id=:id";
+        $sql = "UPDATE products SET name=:name, price=:price WHERE id=:id";
         try {
             $stmt= $this->connection->prepare($sql);
           return   $stmt->execute($data);

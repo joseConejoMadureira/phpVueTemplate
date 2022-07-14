@@ -1,5 +1,7 @@
 <?php
 
+use src\Model\Product;
+
 interface Idao 
 {
     
@@ -7,9 +9,9 @@ interface Idao
     
     
     public function read();
-    public function readById();
-    public function update();
-    public function create();
-    public function delete();
+    public function readById($id);
+    public function update(Product $product);
+    public function create(Product $product);
+    public function delete($id);
     
 }
