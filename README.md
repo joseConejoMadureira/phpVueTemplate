@@ -7,12 +7,12 @@
 | Método | Rota | Parâmetros | Descrição
 | ------ | ------ | ------ | ------ |
 | GET | /backend/index.php/product/read |  | Retorna todos produtos criados.
-| POST | /backend/index.php/product/read/create |  **name:** String `*`| Cria um novo produto.
+| POST | /backend/index.php/product/create |  **name:** String `*`| Cria um novo produto.
 | |  | **stateId:** String `*`  |
-| PUT | cities/update |  **id:** String `*` | Altera informações de uma cidade.
+| PUT | /backend/index.php/product/update |  **id:** String `*` | Altera informações de uma cidade.
 |  | | **name:** String |
 |  |  | **stateId:** String |
-| `DELETE` | cities/delete | **id:** String `*` | Deleta uma cidade.
+| `DELETE` |  /backend/index.php/product/delete  | **id:** String `*` | Deleta uma cidade.
 
 ## PREVIEW
 
