@@ -15,15 +15,18 @@
 ### Produtos
 | Método | Rota | Parâmetros | Tipo  | Descrição
 | ------ | ------ | ------ | ------ |------ |
-| GET | /backend/index.php/product/read | |   JSON     | Retorna todos produtos criados.
-| GET | /backend/index.php/product/readById/| **id**  `*` |   JSON     | Retorna  produto selecionado. 
-| POST | /backend/index.php/product/create |**name**  `*` |JSON | Cria um novo produto. 
-| |  | **price**  `*`             |         |
-| PUT | /backend/index.php/product/update  |**id**  `*` | JSON |Altera informações de um produto.         |  
-|  | | **name**  |
-|  |  | **price**  |
-| `DELETE` |  /backend/index.php/product/delete  | **id**  `*` | JSON |Deleta um produto.
+| GET | /backend/index.php/product/read   |                     |                    | Retorna todos produtos criados.
+| GET | /backend/index.php/product/readById/ |   **id**  `*`  |             JSON     | Retorna  produto selecionado. 
+| POST |  /backend/index.php/product/create |**product**  `*`   |               JSON     | Cria um novo produto. 
+| PUT | /backend/index.php/product/update  |**product**  `*`    |                JSON     |Altera informações de um     produto.         |  
+| `DELETE` |   /backend/index.php/product/delete   |  **id**  `*` |        JSON         |           Deleta um produto.
+| `log-viewer` |   log-viewer           |                  |                     |log-viewer
 
+## MODELS 
+
+### Products
+| ID  | NAME | PRICE |
+| ------ | ------ |------ |
 ## PREVIEW
 
 ![preview](https://github.com/joseEstudos/phpAngularTemplate/blob/f5d6d158823b8c5c1969b0231444ff3e091ca4b5/summary/prints/produtos.png)
