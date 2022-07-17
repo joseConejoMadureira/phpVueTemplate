@@ -20,7 +20,6 @@
 | POST |  /backend/index.php/product/create |**product**  `*`   |               JSON     | Cria um novo produto. 
 | PUT | /backend/index.php/product/update  |**product**  `*`    |                JSON     |Altera informações de um     produto.         |  
 | `DELETE` |   /backend/index.php/product/delete   |  **id**  `*` |        JSON         |           Deleta um produto.
-| `log-viewer` |   log-viewer           |                  |                     |log-viewer
 
 ## MODELS 
 
