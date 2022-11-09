@@ -1,4 +1,4 @@
-# php Angular Template
+# php Vuejs Template (em desenvolvimento)
 ### template de desenvolvimento. 
 
 <p>Template para reutilização:  php restful api</p>
@@ -8,7 +8,7 @@
 | Tecnologia  | Versão |
 | ------ | ------ |
 | PHP | 8.1.8 |
-| ANGULAR | 9.1.0 |
+| VUEJS | XXX |
 | PostgreSQL | 14.4  |
 ## ROUTES 
 
@@ -26,7 +26,7 @@
 ### Products
 | ID  | NAME | PRICE |
 | ------ | ------ |------ |
-## PREVIEW
+## PREVIEW todo
 
 ![preview](https://github.com/joseEstudos/phpAngularTemplate/blob/f5d6d158823b8c5c1969b0231444ff3e091ca4b5/summary/prints/produtos.png)
 

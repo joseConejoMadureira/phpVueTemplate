@@ -2,9 +2,6 @@
 
 # Compiled output
 /frontend/dist
-/frontend/tmp
-/frontend/out-tsc
-/frontend/bazel-out
 
 # Node
 /frontend/node_modules
@@ -29,13 +26,6 @@
 .history/*
 
 # Miscellaneous
-/frontend/.angular/cache
-/frontend/.sass-cache/
-/frontend/connect.lock
-/frontend/coverage
-/frontend/libpeerconnection.log
-/frontend/testem.log
-/frontend/typings
 
 # System files
 .DS_Store
