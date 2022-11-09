@@ -1,6 +1,6 @@
 {
     "name": "dev/backend",
-    "description": "template php angular",
+    "description": "template php vuejs",
     "autoload": {
         "classmap": [
             "src/Model",
