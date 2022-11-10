@@ -42,4 +42,3 @@ backend/logs.log
 backend/.env
 backend/test/.phpunit.result.cache
 .vscode/settings.json
-node_modules
