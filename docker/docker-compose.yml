@@ -3,9 +3,15 @@ version: '3.8'
 
 
 services:
-  postgresql:
-    image: 'bitnami/postgresql:latest'
-    
+
+  db:
+    image: postgres
+    restart: always
     environment:
-      - POSTGRESQL_PASSWORD=password123
- 
+      POSTGRES_PASSWORD: example
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
